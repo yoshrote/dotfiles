@@ -1,4 +1,4 @@
 #!/usr/bin/env zsh
 
-ln -vfsn aliases ~/.zshrc.d/aliases
+ln -vfsn $PWD/aliases ~/.zshrc.d/aliases
 source ~/.zshrc
