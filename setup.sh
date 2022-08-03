@@ -1,8 +1,4 @@
-alias gs="git status"
-alias gd="git diff"
+#!/usr/bin/env zsh
 
-git config --global alias.co checkout
-
-
-# GitLens
-code --install-extension eamodio.gitlens;
+ln -vfsn .zshrc ~/.zshrc
+source ~/.zshrc
